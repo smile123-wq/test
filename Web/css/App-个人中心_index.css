@@ -1,0 +1,368 @@
+.container{
+    position: relative;
+}
+.banner{
+    width: 10rem;
+    height: 7.226667rem;
+    background-image: url(../images/APP_img/banner@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.other{
+    position:absolute;
+    top: .6rem;
+    right: .4rem;
+    width: 1.5rem;
+    height: .506667rem;
+    display: flex;
+    justify-content: space-between;
+}
+.o1{
+    background-image: url(../images/APP_img/二维码@2x.png);
+}
+.o2{
+    background-image: url(../images/APP_img/设置@2x.png);
+}
+.obox {
+    height: .506667rem;
+    width:.506667rem ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.touxiang{
+    position: relative;
+}
+.tupian{
+    position: relative;
+    left: 4rem;
+    top: 0.75rem;
+    height:2rem;
+    width: 2rem;
+    background-image: url(../images/APP_img/头像@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tx_font,.bx_font{
+    position: absolute;
+    left:4.2rem ;
+    bottom: -1.15rem;
+    font-size: 0.34rem;
+    font-family: '思源黑体','微软雅黑';
+}
+.touxiang .bx_font{
+  position: absolute;
+   left: 4.1rem;
+   bottom: -2rem;
+   letter-spacing: .05rem;
+    color:gray;
+}
+.tab{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 4.3rem;
+    width: 10rem;
+    height: 1rem;
+    z-index: 1;
+    /* background-color:yellowgreen; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.box{
+    position: relative;
+    width: 2.6rem;
+    height: 1rem;
+    /* background-color: teal; */
+}
+.box_top p{
+    font-size: 0.4rem;
+    padding-bottom: .04rem;
+}
+.box_top p,.box_bottom p{
+  color: #46484d;
+    text-align: center;
+    font-family: '思源黑体','微软雅黑';
+}
+.box_bottom p{
+    font-size: .333333rem;
+}
+.tiao{
+    height: .48rem;
+    width: .066667rem;
+    background-color:#999999 ;
+    position: absolute;
+    top: .5rem;
+}
+.one{
+   left: -.066667rem;
+}
+.two{
+   right:-.066667rem;
+}
+.chaoji_vip{
+    position: absolute;
+    top: 5.45rem;
+    width: 10rem;
+    height: 1.133333rem;
+    background-color: #46484d;
+    border-radius: 0.3rem 0.3rem  0rem 0rem;
+}
+.vip,.go,.mianyou{
+    font-family: '华文新魏','思源黑体','微软雅黑';
+}
+.vip{
+    position: relative;
+    top: .32rem;
+    font-size: .5rem;
+    
+    color: #e6dfc2;
+    padding-left: .333333rem;
+    
+}
+.go{
+    width: 1.133333rem;
+    height: .533333rem;
+    background-color: #e6dfc0;
+    border-radius: .3rem;
+
+    position: absolute;
+    top: .28rem;
+    right:  .333333rem;
+    font-size: .266667rem;
+    
+}
+.go p{
+    text-align: center;
+    line-height: .533333rem;
+}
+.mianyou{
+    position: absolute;
+    right: 1.6rem;
+    font-size: .373333rem;
+    bottom: .4rem;
+    color: #fff;
+    
+}
+.laba_lan{
+position: absolute;
+top: 6.55rem;
+width: 10rem;
+height: .8rem;
+background-color:#f0f4f8;
+/* background-color:yellowgreen; */
+padding-left: .3rem;
+}
+.laba_font p,.laba_font2 p{
+    float: left;
+    font-size: .24rem;
+    font-family: '宋体','思源黑体','微软雅黑';
+    color: #99999a;
+    line-height:.8rem;
+}
+
+.laba_font2 p{
+    margin-left: .2rem
+}
+
+.nei_rong{
+    position: absolute;
+    top: 7.3rem;
+    height: auto;
+    width: 10rem;
+  
+   
+}
+.nr1,.nr2{
+    padding-left: .32rem;
+    padding-right: .32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.3rem;
+    width: 10rem;
+    border-bottom: .32rem solid #f2f2f2;
+    /* background-color: violet; */
+}
+.nr1_item,.nr2_item{
+    
+    width: 1.4rem;
+    height: 1.4rem;
+    /* background-color: rgb(128, 163, 59); */
+}
+.nr1_tupian,.nr1_tupian,.nr2_tupian,.nr2_tupian{
+    margin: 0 auto;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-bottom: .2rem;
+    /* background-color: cadetblue; */
+    background-image: url(../images/APP_img/待收货@2x.png);
+    background-repeat: no-repeat;
+    background-size: .666667rem .666667rem;
+    background-position: center center;
+   
+}
+
+.nr1_wz,.nr2_wz{
+    font-size: .266667rem;
+    font-family: '苹方','思源黑体','微软雅黑';
+    color: #9e9e9e;
+    text-align: center;
+}
+.nr1_wz a{
+    color: #9e9e9e;
+}
+.nr1 .nr1_item:nth-child(2) .nr1_tupian{
+    background-image: url(../images/APP_img/待付款@2x.png);
+
+}
+.nr1 .nr1_item:nth-child(3) .nr1_tupian{
+    background-image: url(../images/APP_img/待收款@2x.png);
+
+}
+.nr1 .nr1_item:nth-child(4) .nr1_tupian{
+    background-image: url(../images/APP_img/形状1@2x.png);
+
+}
+.nr1 .nr1_item:nth-child(5) .nr1_tupian{
+    background-image: url(../images/APP_img/评价@2x.png);
+
+}
+
+.nr2 .nr2_item:nth-child(4) .nr2_tupian{
+    background-image: url(../images/APP_img/钱包@2x.png);
+
+}
+.nr2 .nr2_item:nth-child(5) .nr2_tupian{
+    background-image: url(../images/APP_img/资产@2x.png);
+
+}
+.nr2 .nr2_item:nth-child(1) .nr2_tupian,
+.nr2 .nr2_item:nth-child(2) .nr2_tupian,
+.nr2 .nr2_item:nth-child(3) .nr2_tupian{
+    background-image: none;
+    padding-top: .3rem;
+}
+.nr2 .nr2_item .nr2_tupian p{
+    font-size: .4rem;
+  
+    color: #a4a4a4;
+    font-family: '华文新魏','思源黑体','微软雅黑';
+    text-align: center;
+}
+.nr2 .nr2_item .nr2_wz{
+    font-family: '华文新魏','思源黑体','微软雅黑';
+}
+.nr3{
+    height: 4.666667rem;
+    width: 10rem;
+}
+
+.nr3_top,.nr3_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.333333rem;
+    width: 10rem;
+    padding-left: .32rem;
+    padding-right: .32rem;
+}
+.nr3t_item{
+    width: 1.5rem;
+    height: auto;
+  
+}
+.nr3_top .nr3t_item .top_tupian,.bottom_tupian{
+    margin: 0 auto;
+    height: .96rem;
+    width: .96rem;
+    background-image: url(../images/APP_img/限时秒杀@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: .266667rem;
+}
+.top_wz,.bottom_wz{
+    font-size: .32rem;
+    text-align: center;
+    font-family: '苹方','思源黑体','微软雅黑';
+}
+.nr3_bottom{
+    height: 2.333333rem;
+    width: 4.65rem;
+    padding-left: .32rem;
+    padding-right: .32rem;
+
+}
+.nr3_top .nr3t_item:nth-child(2) .top_tupian{
+    background-image: url(../images/APP_img/超市购@2x.png);
+}
+.nr3_top .nr3t_item:nth-child(3) .top_tupian{
+    background-image: url(../images/APP_img/惊喜好礼@2x.png);
+}
+.nr3_top .nr3t_item:nth-child(4) .top_tupian{
+    background-image: url(../images/APP_img/在线充值@2x.png);
+}
+.nr3_bottom .nr3b_item:nth-child(1) .bottom_tupian{
+    background-image: url(../images/APP_img/会员俱乐部@2x.png);
+}
+.nr3_bottom .nr3b_item:nth-child(2) .bottom_tupian{
+    background-image: url(../images/APP_img/我的公益@2x.png);
+}
+.foot{
+    float: left;
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: #262422;
+}
+.foot li:nth-child(5) a p{
+    color:#F4516B ;
+}
+.foot img{
+    margin-top: .066667rem;
+    margin-bottom: .066667rem;
+    width: .586667rem;
+    height: .586667rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.foot li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+
+  
+}
+li p {
+    font-family: '苹方','思源黑体','微软雅黑';
+    color: #ffffff;
+    font-size: .32rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+li img:active{
+    transition: all 0.2s;
+    transform: scale(1.5,1.5);
+  }
+
+ .nr1 .nr1_item .nr1_tupian,.nr1 .nr1_item .nr1_wz{
+     /*手指 点击效果 */
+     cursor:pointer;
+     -webkit-tap-highlight-color: transparent;
+ }
+ 
+
+.nr1_wz:active,.nr1_tupian:active{
+    transition: all 0.2s;
+    transform: scale(1.5,1.5)
+}
+ 

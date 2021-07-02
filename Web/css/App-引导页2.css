@@ -1,0 +1,108 @@
+.container{
+    position: relative;
+    width: 10rem;
+    height: 17.786667rem;
+    background-image: url(../images/APP_img/引导页/引导页_02/背景@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiaogou{
+    position: absolute;
+    top: .2rem;
+    right: .613333rem;
+    width: 1.013333rem;
+    height: .533333rem;
+    background-image: url(../images/APP_img/引导页/引导页_01/跳过@2x.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.font_wz p{
+    font-size: .373333rem;
+    color: #e0e0db;
+    text-align: center;
+    line-height: .533333rem;
+    
+}
+
+.tu_one{
+    position: absolute;
+    top: 1.066667rem;
+    left:2.16rem;
+    width: 5.786667rem;
+    height: 1.146667rem;
+
+    background-image: url(../images/APP_img/引导页/引导页_02/购物车的衣服@2x.png);
+    background-size: 5.786667rem 1.146667rem;
+    ;
+    background-repeat: no-repeat;
+}
+.tu_two{
+    position: absolute;
+    top: 2.4rem;
+    left:2.026667rem;
+
+    width: 5.893333rem;
+    height: 1.106667rem;
+    background-image: url(../images/APP_img/引导页/引导页_02/就要像汉子@2x.png);
+    background-size:5.893333rem 1.106667rem ;
+    background-repeat: no-repeat;
+}
+.tu_three{
+    position: absolute;
+    top:3.8rem ;
+    left: 2.08rem;
+
+    width:5.88rem ;
+    height: 1.373333rem;
+    background-image: url(../images/APP_img/引导页/引导页_02/一样对它@2x.png);
+    background-size:5.88rem 1.373333rem;
+    background-repeat: no-repeat;
+}
+.tu_four{
+   position: absolute;
+   top: 5.466667rem;
+   left: 2.133333rem;
+
+   width: 5.88rem;
+   height: 1.386667rem;
+   background-image: url(../images/APP_img/引导页/引导页_02/负责到底@2x.png);
+   background-size: 5.88rem  1.386667rem;
+   background-repeat: no-repeat;
+
+}
+.tu_five{
+   position: absolute;
+   top:8.333333rem;
+   left: 2.6rem;
+
+   width: 4.8rem;
+   height: 6.306667rem;
+   background-image: url(../images/APP_img/引导页/引导页_02/小男孩@2x.png);
+   background-size:4.8rem 6.306667rem ;
+   background-repeat: no-repeat;
+}
+ul.yuan{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 1.733333rem;
+    left: 4.5rem;
+    width: 1rem;
+    height: auto;
+    list-style: none;
+}
+li{
+    float: left;
+    border-radius: 0.1rem;
+    width: .2rem;
+    height: .2rem;
+
+    background-color:#9f9f9f ;
+
+    
+}
+.active{
+    background-color:#fe0d00 ;
+}

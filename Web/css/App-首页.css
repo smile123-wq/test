@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 10rem;
+    height: 48.5rem;
+    position: relative;
+    margin-top:1.173333rem ;
+    margin-bottom: 1.333333rem;
+}
+.top{
+    /* position:relative; */
+    height: 1.173333rem;
+    width: 10rem;
+    background-color:#fa6b1d ;
+
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+input{
+    position:absolute;
+    left: 1.266667rem;
+    top: .266667rem;
+
+    width: 7.466667rem;
+    height: .666667rem;
+    border: none;
+    border-radius: 1rem;
+    background-image: url(../images/APP_img/APP首页-切图/放大镜@2x.png);
+    background-position:.266667rem center;
+    background-size: .413333rem;
+    background-repeat: no-repeat;
+}
+.saomiao{
+    position: absolute;
+    left: .266667rem;
+    top: .32rem;
+     height: .56rem;
+     width: .56rem;
+     background-image: url(../images/APP_img/APP首页-切图/二维码@2x.png);
+     background-size: .56rem;
+    background-repeat: no-repeat;
+}
+.weixin{
+    position: absolute;
+    right: .4rem;
+    top: .4rem;
+    width: .453333rem;
+    height: .386667rem;
+    background-image: url(../images/APP_img/APP首页-切图/微信@2x.png);
+    background-size:.453333rem .386667rem;
+    background-repeat: no-repeat;
+}
+ .focus {
+    height: 4.266667rem;
+    width: 10rem;
+    position: relative;
+    overflow:hidden;
+    
+    border-bottom: .266667rem #eeeeee solid;
+ }
+ .focus ul{
+    width: 500%;
+    margin-left: -100%;;
+ }
+ .focus ul li{
+     float: left;
+     width: 20%;
+ }
+ .focus img{
+     width: 100%;
+ }
+ ol{
+     position: absolute;
+     bottom: .066667rem;
+     right: .066667rem;
+     margin: 0;
+    
+ }
+ ol li{
+     display: inline-block;
+     width: .1rem;
+     height: .1rem;
+     border-radius: .04rem;
+     list-style: none;
+     background-color: #fff;
+     transition: all .2s;
+ }
+ ol li.current{
+    width: .3rem;
+   
+}
+.big_box{
+    padding-right: .56rem;
+    padding-left: .56rem;
+    border-bottom: .266667rem #eeeeee solid;
+    position: relative;
+    width: 10rem;
+    height: 2.333333rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.icon{
+    height: .96rem;
+    width: .96rem;
+    margin: 0 auto;
+    background-image: url(../images/APP_img/APP首页-切图/限时秒杀@2x.png);
+    background-size: .96rem;
+    background-repeat: no-repeat;
+
+}
+.font{
+    font-size: .373333rem;
+    color: rgb(26,26,26);
+    font-family:'苹方','思源黑体','微软雅黑' ;
+    text-align: center;
+}
+.big_box .item:nth-child(2) .icon{
+    background-image: url(../images/APP_img/APP首页-切图/超市购@2x.png);
+}
+.big_box .item:nth-child(3) .icon{
+    background-image: url(../images/APP_img/APP首页-切图/惊喜好礼@2x.png);
+}
+.big_box .item:nth-child(4) .icon{
+    background-image: url(../images/APP_img/APP首页-切图/在线充值@2x.png);
+}
+.temai{
+    position: relative;
+    height: 4.533333rem;
+    width: 10rem;
+    border-bottom: .266667rem #eeeeee solid;
+    /* background-color: rosybrown; */
+}
+.temai_top{
+    height: .96rem;
+    width: 10rem;
+  
+   }
+.tiao{
+    float: left;
+    margin-right: .133333rem;
+    width: .266667rem;
+    height: .96rem;
+    background-color:#fc1923 ;
+}
+.same{
+    color: #fc1923;
+    line-height: .96rem;
+    font-family:'宋体','苹方','思源黑体','微软雅黑' ;
+}
+.left_font{
+    float: left;
+    font-size: .4rem;
+}
+.right_font{
+    float: right;
+    font-size: .32rem;
+    margin-right: .266667rem;
+}
+.temai_bottom{
+    display: flex;
+    justify-content: space-between;
+   padding-left: .266667rem;
+   padding-right: .266667rem;
+}
+.temai_item{
+    width: 2.933333rem;
+    height: 3.333333rem;
+    /* background-color: seagreen; */
+}
+.temai_tu{
+    /* background-color: sienna; */
+    height: 2.7rem;
+    width: 2.933333rem;
+    background-image: url(../images/APP_img/APP首页-切图/电饭煲@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.temai_font{
+    margin-top: .133333rem;
+    text-align: center;
+    font-size: .32rem;
+    font-family:'华文细黑','苹方','思源黑体','微软雅黑' ;
+}
+.temai_bottom .temai_item:nth-child(2) .temai_tu{
+    background-image: url(../images/APP_img/APP首页-切图/床上用品@2x.png);
+}
+.temai_bottom .temai_item:nth-child(3) .temai_tu{
+    background-image: url(../images/APP_img/APP首页-切图/餐具@2x.png);
+}
+.miaosha{
+    position: relative;
+    height: 5.666667rem;
+    width: 10rem;
+    border-bottom: .266667rem solid  #e5e5e5  ;
+
+
+}
+.miaosha_top{
+    width: 10rem;
+    height: .866667rem;
+    border-bottom: solid .013333rem #e5e5e5 ;
+    border-top: solid .013333rem #e5e5e5 ;
+    margin-bottom: .266667rem;
+}
+.miaosha_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-right: .266667rem;
+    padding-left: .266667rem;
+}
+.ms_tiao{
+    float: left;
+    width: .266667rem;
+    height: .866667rem;
+    background-color: rgb(255, 181, 68);
+}
+.same2{
+    color:rgb(255, 181, 68) ;
+    line-height: .96rem;
+    font-family:'宋体','苹方','思源黑体','微软雅黑' ;
+}
+.left_font2{
+    float: left;
+    font-size: .4rem;
+}
+.right_font2{
+    float: right;
+    font-size: .32rem;
+    margin-right: .266667rem;
+}
+.miaosha_item{
+    width: 3.066667rem;
+    height: 4.066667rem;
+
+}
+.miaosha_tu{
+    width: 3.066667rem;
+    height: 3.066667rem;
+    background-image: url(../images/APP_img/APP首页-切图/玻璃杯@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-bottom: .293333rem;
+
+}
+.miaosha_font{
+    height: .373333rem;
+    width: 3.066667rem;
+    margin-bottom: .1rem;
+}
+.one{
+    float: left;
+    font-family: '苹方','思源黑体','微软雅黑' ;
+    font-size: .32rem;
+    color: rgb(203,19,36);
+    line-height: .373333rem;
+}
+.two{
+    float: left;
+    font-family: '微软雅黑';
+    font-size: .373333rem;
+    color: rgb(203,19,36);
+    line-height: .373333rem;
+}
+.shouji{
+    width: .88rem;
+    height: .253333rem;
+    background-image: url(../images/APP_img/APP首页-切图/手机专享@2x.png);
+    background-size:.88rem .253333rem;
+    background-repeat: no-repeat;
+  
+}
+.miaosha_bottom .miaosha_item:nth-child(2) .miaosha_tu{
+    background-image: url(../images/APP_img/APP首页-切图/手套@2x.png);
+}
+.miaosha_bottom .miaosha_item:nth-child(3) .miaosha_tu{
+    background-image: url(../images/APP_img/APP首页-切图/调味料@2x.png);
+}
+.pinpai{
+    position: relative;
+    height: auto;
+    width: 10rem;
+
+}
+.pinpai_top{
+    display: flex;
+    justify-content:center;
+    height: .866667rem;
+    width: 10rem;
+}
+.pinpai_font{
+    margin-right: .266667rem;
+    margin-left: .266667rem;
+    line-height: .866667rem;
+    font-size: .333333rem;
+    color: rgb(0, 79, 149);
+}
+.lantiao{
+    margin-top: .4rem;
+    float: left;
+    width: 1.333333rem;
+    height: .053333rem;
+    background-color:rgb(0, 79, 149);
+}
+.four{
+    padding-right: .266667rem;
+    padding-left: .266667rem;
+    margin-bottom: .266667rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height:5.6rem ;
+    width: 10rem;
+
+}
+.four_item{
+    
+    width: 4.666667rem;
+    height: 2.666667rem;
+   background-image: url(../images/APP_img/APP首页-切图/百草味@2x.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.four .four_item:nth-child(2){
+    background-image: url(../images/APP_img/APP首页-切图/可乐@2x.png);
+}
+.four .four_item:nth-child(3){
+    background-image: url(../images/APP_img/APP首页-切图/纸巾@2x.png);
+}
+.four .four_item:nth-child(4){
+    background-image: url(../images/APP_img/APP首页-切图/奶粉@2x.png);
+}
+.six{
+    padding-right: .266667rem;
+    padding-left: .266667rem;
+    position: relative;
+    width: 10rem;
+    height: auto;
+}
+.six_item{
+    position: relative;
+    float: left;
+    width: 9.466667rem;
+    height: 3.866667rem;
+    margin-bottom: .266667rem;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.six_tu{
+    width: 100%;
+    height: 3.2rem;
+    background-image: url(../images/APP_img/APP首页-切图/百丽国际@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .4rem .4rem 0 0;
+    
+}
+.six_font{
+    padding-left: .506667rem;
+    width: 100%;
+    height: .666667rem;
+    background-color: rgb(245,245,245);
+    border-radius:  0 0 .4rem .4rem;
+    font-size: .266667rem;
+    font-family: '苹方','思源黑体','微软雅黑';
+    color: #000000;
+     
+}
+.six_p{
+    float: left;
+    line-height: .666667rem;
+    margin-right: .4rem;
+}
+.six .six_item:first-child{
+    border-radius: 0.4rem;
+    background-image: url(../images/APP_img/APP首页-切图/零食@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.six .six_item:nth-child(3) .six_tu{
+    background-image: url(../images/APP_img/APP首页-切图/zero@2x.png);
+}
+.six .six_item:nth-child(4) .six_tu{
+    background-image: url(../images/APP_img/APP首页-切图/Paulfrank@2x.png);
+}
+.six .six_item:nth-child(5) .six_tu{
+    background-image: url(../images/APP_img/APP首页-切图/anta@2x.png);
+}
+.six .six_item:nth-child(6) .six_tu{
+    background-image: url(../images/APP_img/APP首页-切图/colorkey@2x.png);
+}
+ 
+.teshu{
+    float: left;
+    font-size: .373333rem;
+    line-height: .666667rem;
+    color: #fc1923;
+}
+.foot{
+    float: left;
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: #262422;
+}
+.foot img{
+    margin-top: .066667rem;
+    margin-bottom: .066667rem;
+    width: .586667rem;
+    height: .586667rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+.foot li:nth-child(1) a p{
+    color:#F4516B ;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.foot li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+
+  
+}
+li p {
+    font-family: '苹方','思源黑体','微软雅黑';
+    color: #ffffff;
+    font-size: .32rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+li img:active{
+    transition: all 0.2s;
+    transform: scale(1.5,1.5);
+  }
+       

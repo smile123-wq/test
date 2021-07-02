@@ -1,0 +1,296 @@
+body{
+    background-color:#f5f5f5;
+}
+.container{
+    position: relative;
+}
+.top{
+    width: 10rem;
+    height: 1.173333rem;
+    position: relative;
+    background-color:#ffffff ;
+
+}
+.search{
+    position: absolute;
+    right: 1.266667rem;
+    top: .266667rem;
+    height: .666667rem;
+    width: 7.466667rem;
+    border-radius: .4rem;
+    border: none;
+    background-image: url(../images/APP_img/APP首页-切图/放大镜@2x.png);
+    background-color: #f0f0f0;
+    background-position:.266667rem center;
+    background-size: .413333rem;
+    background-repeat: no-repeat;
+}
+.jiantou a{
+    position: absolute;
+    left:.4rem;
+    top: .333333rem;
+    font-size: .426667rem;
+    width: .293333rem;
+    height: .48rem;
+    background-image: url(../images/APP_img/待付款_切图/箭头@2x.png);
+    background-repeat: no-repeat;
+    background-size:.293333rem  .48rem;
+
+     /*手指 点击效果 */
+     cursor:pointer;
+     -webkit-tap-highlight-color: transparent;
+
+    
+}
+.jiantou:active{
+     transition: all 0.2s;
+    transform: translateX(-0.3rem);
+}
+
+.nar{
+    position: relative;
+    padding-left: .533333rem;
+    padding-right: .533333rem;
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    height: 1.333333rem;
+    background-color:#ffffff;
+}
+.item{
+    width: 1.786667rem;
+    height: 1.333333rem;
+}
+.font{
+    margin-top: .466667rem;
+    margin-bottom: .133333rem;
+ 
+    height: .373333rem;
+    width: 1.786667rem;
+}
+.item p{
+    text-align: center;
+    font-size: .373333rem;
+    font-weight: bold;
+    color: #646464;
+    font-family: 'PingFang-SC-Bold';
+    line-height: .373333rem;
+    
+}
+.tiao{
+    margin: 0 auto;
+    height: .133333rem;
+    width: 1.333333rem;
+    border-radius: .066667rem;
+    background-color:#fa6c1d;
+    display: none;
+}
+.tiao_active{
+    display: block;
+}
+
+/* 内容 */
+.neirong{
+    /* display: flex; */
+   
+    display: flex;
+    flex-wrap:wrap;
+     justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 10rem;
+    height: auto;
+    margin-bottom: .266667rem;
+
+}
+.nitem{
+
+    margin-top: .266667rem;
+    width: 9.04rem;
+    height: 4.266667rem;
+    border-radius: .266667rem;
+    background-color: #ffffff;
+}
+.ntop{
+    width: 100%;
+    height: 1.466667rem;
+    /* background-color: beige; */
+}
+.tleft{ 
+    padding-left: .266667rem;
+    float: left;
+    width: 70%;
+    height: 100%;
+    /* background-color: coral; */
+}
+.tright{
+    float: right;
+    width: 30%;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    padding-right: .373333rem;
+}
+.t_one{
+    float: left;
+    width: 80%;
+    margin-top: .293333rem;
+    margin-bottom: 0;
+    font-size: .373333rem;
+    color: #262626;
+    font-family: 'PingFang-SC-Bold','苹方','思源黑体','微软雅黑';
+    font-weight: bold;
+}
+.t_two,.t_three{
+    float: left;
+    margin-right: .133333rem;
+    font-size: .32rem;
+    color:#B4B4B4 ;
+    font-family: 'PingFang-SC-Bold','苹方','思源黑体','微软雅黑';
+    font-weight:bold;
+}
+.tright p{
+    float: right;
+    line-height: 1.493333rem;
+    font-size: .373333rem;
+    color:#FA6B1D ;
+    font-family: 'PingFang-SC-Heavy','PingFang-SC-Bold','苹方','思源黑体','微软雅黑';
+    font-weight: bold;
+    
+}
+.nbottom{
+    float: left;
+    padding-right: .4rem;
+    padding-left: .4rem;
+
+    height: 2.773333rem;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+.tu{
+    float: left;
+    width: 2.666667rem;
+    height: 2.4rem;
+    background-image: url(../images/APP_img/待付款_切图/白鞋@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .133333rem;
+    margin-right: .266667rem;
+}
+
+.box_t{
+    float: left;
+    width: 3.466667rem;
+    height:  2.773333rem;
+    /* background-color: cyan; */
+}
+.neirong .nitem:nth-child(2) .nbottom .tu{
+    background-image: url(../images/APP_img/待付款_切图/婴儿衣物@2x.png);
+}
+.neirong .nitem:nth-child(3) .nbottom .tu{
+    background-image: url(../images/APP_img/待付款_切图/衣架3@2x.png);
+}
+.wenzi_top{
+    float: left;
+    width: 100%;
+    height: 46%;
+    /* background-color: darkorchid; */
+}
+.wenzi_bottom{
+    float: left;
+    height: 54%;
+    width: 100%;
+    /* background-color: darkseagreen; */
+}
+.wenzi_top p{
+    letter-spacing:-.026667rem;
+    text-align: left;
+    font-size: .32rem;
+    color: #646464;
+    font-family: 'PingFang-SC-Heavy','PingFang-SC-Bold','苹方','思源黑体','微软雅黑';
+    font-weight: bold;
+}
+p.mibai{
+    color:#B4B4B4 ;
+}
+.kuang{
+    margin-top: .24rem;
+    width: 1.813333rem;
+    height: .4rem;
+    background-color: #e7f4fd;
+}
+.kuang p{
+    font-size: .24rem;
+    color:#6a9ac5;
+    font-family: 'PingFang-SC-Heavy','PingFang-SC-Bold','苹方','思源黑体','微软雅黑';
+    line-height: .4rem;
+}
+.box_s{
+    float: right;
+    width: 1.213333rem;
+    height: 100%;
+
+}
+.box_s p{
+    float: right;
+    font-family: 'PingFang-SC-Heavy','PingFang-SC-Heavy','PingFang-SC-Bold','苹方','思源黑体','微软雅黑';
+    font-weight: bold;
+    color:#636363 ;
+    font-size: .346667rem;
+}
+.box_s p:nth-child(2){
+    
+    margin-top: .386667rem;
+    color: #b5b5b5;
+}
+/* 底部 */
+.foot{
+    width: 10rem;
+    height: 1.6rem;
+    background-color: #fff;
+
+    padding-left: .4rem;
+    padding-right: .266667rem;
+}
+.fletf{
+    float: left;
+    width: 6.72rem;
+    height: 1.6rem;
+    /* background-color: darkslateblue; */
+}
+.fright{
+    float: right;
+    margin-top: .333333rem;
+    width:2.4rem;
+    height: .933333rem;
+    background-color: #fa6c1d;
+    border-radius: .266667rem;
+}
+.fletf p{
+    color: #3C3C3CFF;
+    font-size: .32rem;
+    font-family: 'PingFang-SC-Heavy';
+    line-height: 1.6rem;
+    font-weight: bold;
+
+}
+p.left{
+    float: left;
+    color: #B4B4B4FF;
+}
+p.right{
+    float: right;
+    
+}
+.fright{
+    font-family: 'PingFang-SC-Heavy';
+    font-size: .357333rem;
+    color: #eef9fe;
+    line-height: .933333rem;
+    text-align: center;
+   
+}
+.n1r_bottom p{
+    float: left;
+    font-size: .32rem;
+    font-family: 'PingFang-SC-Medium';
+}

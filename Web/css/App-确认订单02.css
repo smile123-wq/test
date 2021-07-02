@@ -1,0 +1,114 @@
+
+.big_box{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: auto;
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100%;
+}
+.small_box{
+    position: absolute;
+    top: 5.56rem;
+    left: 1.333333rem;
+    width: 7.333333rem;
+    height: 6.666667rem;
+    background-color: #fff;
+    border-radius: .133333rem;
+}
+.stop{
+    width: 100%;
+    height: 1.733333rem;
+    border-radius: .133333rem .133333rem 0 0;
+    background: url(../images/APP_img/确认订单02/沙漠@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.smdille{
+    margin-top: .666667rem;
+    padding-left: .266667rem;
+    height: 2.4rem;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    margin-bottom: .533333rem;
+}
+.sm_left{
+    float: left;
+    width: 2.666667rem;
+    height: 2.4rem;
+    border-radius: .133333rem;
+    background: url(../images/APP_img/确认订单02/白鞋@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: .266667rem;
+}
+.sm_one{
+    float: left;
+    font-size: .32rem;
+    color: rgba(38, 38, 38, 1);
+    font-family: 'PingFang-SC-Bold';
+    font-weight: bold;
+    margin-bottom: .24rem;
+}
+.sm_two{
+    float: left;
+    height: .533333rem;
+    width: 2rem;
+    background-color: rgba(240, 240, 240, 1);
+    border-radius: .133333rem;
+}
+
+.sm_two p{
+    text-align-last: center;
+    font-size: .32rem;
+    color:rgba(135, 135, 135, 1) ;
+    line-height: .533333rem;
+    font-family: 'PingFang-SC-Regular';
+}
+.sm_three{
+    margin-top: .4rem;
+    width: 3rem;
+    height: .48rem;
+    float: left;
+    font-size: .48rem;
+    color: rgba(250, 107, 29, 1);
+}
+.sm_three p{
+    /* text-align: center; */
+    font-family: 'MicrosoftYaHeiUI';
+    font-weight: bold;
+
+}
+.smbottom{
+    padding-left: .466667rem;
+    padding-right: .466667rem;
+    float: left;
+    width: 100%;
+    height: .933333rem;
+    /* background-color: chartreuse; */
+}
+.smbottom div{
+    width:3.066667rem ;
+    height: .933333rem;
+    background-color: rgba(250, 107, 29, 1);
+    border-radius: .4rem
+}
+.smbottom .lbtu{
+    float: left;
+    background-color: #fff;
+    border: solid .013333rem rgba(4, 4, 15, 1);
+}
+.rbtu{
+    float: right;
+}
+.smbottom div p{
+    line-height: .933333rem;
+    text-align: center;
+    font-size: .32rem;
+    font-family: 'PingFang-SC-Medium';
+}
+.smbottom .rbtu p{
+    color: #fff;
+}

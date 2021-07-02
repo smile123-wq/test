@@ -1,0 +1,111 @@
+body{
+    background-color:#EBEBEBFF;
+}
+.container{
+    position: relative;
+}
+/* 头部 */
+.top{
+    width: 10rem;
+    height: 1.173333rem;
+    position: relative;
+    background-color:#F5F5F5FF ;
+}
+a .jiantou{
+    position: absolute;
+    left:.4rem;
+    top: .333333rem;
+    font-size: .426667rem;
+    width: .293333rem;
+    height: .48rem;
+    background-image: url(../images/APP_img/待付款_切图/箭头@2x.png);
+    background-repeat: no-repeat;
+    background-size:.293333rem  .48rem;
+
+     /*手指 点击效果 */
+     cursor:pointer;
+     -webkit-tap-highlight-color: transparent;
+
+    
+}
+.wenzi{
+  
+    margin: 0 auto;
+    width: 3.333333rem;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    font-size: .48rem;
+    
+}
+.wenzi p:nth-child(1){
+    float: left;
+    font-family: 'PingFang-SC-Regular';
+    color:#333333FF ;
+}
+.group{
+    margin-top: .266667rem;
+    height: 4.266667rem;
+    width: 10rem;
+    /* background-color: aquamarine; */
+}
+.form_group .input{
+    float: left;
+    /* letter-spacing: .026667rem; */
+    border-bottom: .013333rem solid rgba(230, 230, 230, 1);
+    border-top: .013333rem solid rgba(230, 230, 230, 1);
+    padding-left: .266667rem;
+    
+    width: 10rem;
+    height: 1.066667rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+.form_group p{
+   position: relative;
+   float: left;
+    font-size: .4rem;
+    color:rgba(230, 230, 230, 1);
+    line-height: 1.066667rem;
+    font-family: 'PingFang-SC-Regular';
+}
+.form_group p:first-child{
+    margin-right: .7rem;
+    color: black;
+
+}
+.orange{
+    float: right;
+    margin-top: .133333rem;
+    width:2.666667rem;
+    height: .8rem;
+    background-color: rgba(250, 107, 29, 1);
+    margin-right: .266667rem;
+}
+.input .orange p{
+    margin-left: .35rem;
+    line-height: .8rem;
+    font-size: .4rem;
+    font-family: 'PingFang-SC-Regular';
+    color: white;
+    
+}
+.btn{
+    margin: 0 auto;
+    margin-top: .266667rem;
+    width: 9.466667rem;
+    height: 1.333333rem;
+    background-color: rgba(220, 220, 220, 1);
+    border-radius: .133333rem;
+}
+.btn p{
+    color: rgba(185, 185, 185, 1);
+    font-size: .48rem;
+    font-family: 'PingFang-SC-Regular';
+    text-align: center;
+    line-height: 1.333333rem;
+}
+.last{
+    margin-top: .266667rem;
+    margin-left: .266667rem;
+    font-size: .32rem;
+    color:rgba(185, 185, 185, 1) ;
+}

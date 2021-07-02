@@ -1,0 +1,303 @@
+body{
+    background-color:#EBEBEBFF;
+}
+.container{
+    position: relative;
+}
+/* 头部 */
+.top{
+    width: 10rem;
+    height: 1.173333rem;
+    position: relative;
+    background-color:#F5F5F5FF ;
+}
+a .jiantou{
+    position: absolute;
+    left:.4rem;
+    top: .333333rem;
+    font-size: .426667rem;
+    width: .293333rem;
+    height: .48rem;
+    background-image: url(../images/APP_img/待付款_切图/箭头@2x.png);
+    background-repeat: no-repeat;
+    background-size:.293333rem  .48rem;
+
+     /*手指 点击效果 */
+     cursor:pointer;
+     -webkit-tap-highlight-color: transparent;
+
+    
+}
+.wenzi{
+  
+    margin: 0 auto;
+    width: 3.333333rem;
+    height: 1.173333rem;
+   line-height: 1.173333rem;
+    font-size: .48rem;
+    
+}
+.wenzi p:nth-child(1){
+    float: left;
+    font-family: 'PingFang-SC-Regular';
+    color:#333333FF ;
+}
+
+/* 内容 */
+.neirong{
+    position: relative;
+    width: 10rem;
+    height:auto;
+}
+.nr1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.item1{
+
+    width: 9.2rem;
+    height: 2.666667rem;
+    border-radius: .133333rem;
+    background-color: #FFFFFFFF;
+    margin-top: .266667rem;
+    
+}
+
+.nleft{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.nright{
+    float: right;
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.one{
+    float: left;
+    width: 70%;
+    height: .453333rem;
+    margin-top: .4rem;
+    margin-left: .4rem;
+}
+.tiao{
+    float: left;
+    width: .746667rem;
+    height: .453333rem;
+    background-color: #01C4FCFF;
+}
+.one .tiao p{
+    
+    
+    line-height: .453333rem;
+    font-size: .302267rem;
+    color: #5FDAFEFF;
+    font-family: 'PingFang-SC-Bold';
+    margin-left: .08rem;
+}
+.one p{
+    line-height: .453333rem;
+    float: left;
+    font-size: .373333rem;
+    color: #DCDCDCFF;
+    font-family: 'PingFang-SC-Bold';
+}
+.two{
+    float: left;
+    height: .346667rem;
+    width: auto;
+    font-size: .373333rem;
+    /* font-weight: bold; */
+    font-family: 'PingFang-SC-Bold';
+    color: #333333FF;
+    margin-left: .4rem;
+    margin-top: .24rem;
+}
+.three{
+    height: .373333rem;
+    width: auto;
+    float: left;
+    color: #333333FF;
+    /* font-weight: bold; */
+    font-size: .373333rem;
+    font-family: 'PingFang-SC-Bold';
+    margin-left: .4rem;
+    margin-top: .4rem;
+}
+.three p{
+    float: left;
+   
+}
+.nright{
+    padding-right: .4rem;
+}
+.nright p{
+    font-size: .48rem;
+    color:#DCDCDCFF ;
+    text-align: right;
+    line-height:2.666667rem;
+}
+.nr1 .item1:nth-child(2){
+    width: 9.2rem;
+    height: 5.333333rem;
+    border-radius: .133333rem;
+    background-color: #FFFFFFFF;
+
+}
+.n1top,.n1bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding-right: .4rem;
+    padding-left: .4rem;
+    float: left;
+    /* background-color: aqua; */
+    
+}
+.n1bottom{
+    width: 4.933333rem;
+    height: 50%;
+
+}
+.img{
+    width: 1.866667rem;
+    height: 1.866667rem;
+    background-image: url(../images/APP_img/APP首页-切图/电饭煲@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .133333rem;
+}
+.n1top .img:nth-child(2){
+    background-image: url(../images/APP_img/确认订单01/收纳箱@2x.png);
+}
+.n1top .img:nth-child(3){
+    background-image: url(../images/APP_img/确认订单01/拖鞋@2x.png);
+}
+.n1top .img:nth-child(4){
+    background-image: url(../images/APP_img/确认订单01/手套@2x.png);
+}
+.n1bottom .img:nth-child(1){
+    background-image: url(../images/APP_img/确认订单01/白鞋@2x.png);
+}
+.n1bottom .img:nth-child(2){
+    background-image: url(../images/APP_img/确认订单01/床@2x.png);
+}
+.n1r_bottom{
+    position: absolute;
+    top: 6.8rem;
+    right: .8rem;
+    width: 30%;
+    height: 5%;
+    /* background-color: cadetblue; */
+    /* float: right; */
+}
+.n1r_bottom p{
+    float: right;
+    font-size: .32rem;
+    font-family: 'PingFang-SC-Medium';
+    color: #333333FF;
+    /* line-height: 5%; */
+}
+.n1r_bottom p:first-child{
+    font-size: .32rem;
+    color: #CDCDCDFF;
+    
+}
+.font_baiguo{
+    width: 9.2rem;
+    height: .32rem;
+    height: auto;
+    margin-left: .8rem;
+    margin-top: .266667rem;
+    margin-bottom: .72rem;
+}
+.font_baiguo p{
+   
+    float: left;
+    font-size: .32rem;
+    font-family: 'PingFang-SC-Medium';
+    color: #C8C8C8FF;
+}
+.nr2_f{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.nr2{
+    
+    width: 9.2rem;
+    height: 2.8rem;
+    background-color: #FFFFFFFF;
+    border-radius: .133333rem;
+    margin-bottom: .266667rem;
+
+}
+.nr2:nth-child(2){
+    width: 9.2rem;
+    height: 1.333333rem;
+}
+.nr2_ul{
+    float: left;
+    margin-left: .4rem;
+    margin-top: .4rem;
+}
+.nl2_ul{
+    float: right;
+    margin-top: .4rem;
+    margin-right: .4rem;
+}
+.nr2_ul li,.nl2_ul li{
+    font-size: .4rem;
+    font-family: 'PingFang-SC-Medium';
+    color: #333333FF;
+    padding-bottom: .25rem;
+}
+
+/* 底部 */
+.foot{
+  
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1.6rem;
+    background-color: #fff;
+    
+}
+.fletf{
+    float: left;
+    width: 6.72rem;
+    height: 1.6rem;
+    margin-left: .4rem;
+    /* background-color: darkslateblue; */
+}
+.fright{
+    float: right;
+    margin-top: .333333rem;
+    width:2.4rem;
+    height: .933333rem;
+    background-color: #fa6c1d;
+    border-radius: .266667rem;
+    margin-right: .4rem;
+}
+.fletf p{
+    color: #3C3C3CFF;
+    font-size: .32rem;
+    font-family: 'PingFang-SC-Heavy';
+    line-height: 1.6rem;
+    font-weight: bold;
+
+}
+.fright p{
+    font-family: 'PingFang-SC-Heavy';
+    font-size: .357333rem;
+    color: #eef9fe;
+    line-height: .933333rem;
+    text-align: center;
+   
+}

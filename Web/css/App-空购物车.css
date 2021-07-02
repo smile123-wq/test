@@ -1,0 +1,171 @@
+body{
+    background-color: hsla(0, 0%, 96%, 1);
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 10rem;
+    height: auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    line-height: 1.173333rem;
+    padding-right: .533333rem;
+    padding-left: .4rem;
+    width: 10rem;
+    height: 1.173333rem;
+    background-color:hsla(0, 0%, 96%, 1) ;
+}
+.top p{
+    font-size: .426667rem;
+    color: #333333;
+    font-family:'苹方','思源黑体','微软雅黑'  ;
+}
+.gouwu{
+    position: relative;
+    top: .266667rem;
+    left: .266667rem;
+    width: 9.466667rem;
+    height: 5.6rem;
+    background-color: white;
+    border-radius: .133333rem;
+   margin-bottom: .266667rem;
+
+}
+.che{
+    position: absolute;
+    left: 1.813333rem;
+    top: 0;
+    width: 5.84rem;
+    height: 5.6rem;
+    background-image: url(../images/APP_img/购物车_切图/shopping3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: antiquewhite; */
+    
+}
+.neirong{
+    position: relative;
+    top: .266667rem;
+    /* left: .266667rem; */
+    width: 10rem;
+    height: 14rem;
+    /* background-color: aquamarine; */
+}
+.ntop{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height:1.04rem ;
+    /* background-color: bisque; */
+}
+.tiao{
+    width: 1.066667rem;
+    height: .026667rem;
+    background-color: hsla(0, 0%, 20%, 1);
+    margin-top: .56rem;
+}
+.ntop p{
+    margin-left: .266667rem;
+    margin-right: .266667rem;
+    font-size: .32rem;
+    line-height: 1.04rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 20%, 1);
+
+}
+.nbottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.iterm{
+    width: 4.533333rem;
+    height: 6rem;
+    border-radius: .4rem;
+    background-color: white;
+    margin-bottom: .266667rem;
+}
+.tupian{
+    float: left;
+    width: 4.533333rem;
+    height: 4rem;
+    background-image: url(../images/APP_img/购物车_切图/白鞋@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .4rem .4rem 0rem 0rem;
+    margin-bottom: .266667rem;
+}
+
+.iterm p{
+    float: left;
+     font-size: .266667rem;
+     margin-left: .266667rem;
+     font-family: 'PingFang-SC-Bold';
+     font-weight: bold;
+     color: hsla(0, 0%, 20%, 1);
+}
+.iterm p:nth-child(4){
+    width: 100%;
+    margin-top: 0.05rem;
+    color: hsla(0, 0%, 53%, 1);
+}
+.iterm p:nth-child(5){
+  
+    font-size: .4rem;
+}
+.iterm:nth-child(2) .tupian{
+    background-image: url(../images/APP_img/购物车_切图/拖鞋@2x.png);
+}
+.iterm:nth-child(3) .tupian{
+    background-image: url(../images/APP_img/待付款_切图/衣架3@2x.png);
+}
+.iterm:nth-child(4) .tupian{
+    background-image: url(../images/APP_img/待付款_切图/婴儿衣物@2x.png);
+}
+/* 底部 */
+.foot{
+    position: relative;
+    /* float: left; */
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: #262422;
+}
+.foot img{
+    margin-top: .066667rem;
+    margin-bottom: .066667rem;
+    width: .586667rem;
+    height: .586667rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+.foot li:nth-child(4) a p{
+    color:#F4516B ;
+}
+.foot li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+
+  
+}
+li p {
+    font-family: '苹方','思源黑体','微软雅黑';
+    color: #ffffff;
+    font-size: .32rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+li img:active{
+    transition: all 0.2s;
+    transform: scale(1.5,1.5);
+  }

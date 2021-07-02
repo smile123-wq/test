@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border: 0 none;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, em {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+input {
+    border: 0 none;
+    outline: 0 none;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+body {
+    font: 14px/1.14 arial;
+}
+

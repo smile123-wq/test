@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 10rem;
+    height: auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.173333rem;
+    padding-right: .533333rem;
+    padding-left: .4rem;
+    width: 10rem;
+    height: 1.173333rem;
+    background-color:#f5f5f5 ;
+}
+.top p{
+    font-size: .426667rem;
+    color: #333333;
+    font-family:'苹方','思源黑体','微软雅黑'  ;
+}
+.neirong{
+    position: relative;
+    width: 10rem;
+    height: auto;
+
+}
+.item{
+    position: relative;
+    width: 10rem;
+    height: 3.466667rem;
+    background-color: #FFFFFF;
+    border-bottom: .266667rem solid #F8F8F8;
+}
+.cirle{
+
+    width: .453333rem;
+    height: .453333rem;
+    border-radius: 50%;
+    border: .013333rem solid #919191;
+
+    position: absolute;
+    top: 1.386667rem;
+    left: .4rem;    
+}
+.tupian{
+    position: absolute;
+    top: .4rem;
+    left: 1.133333rem;
+    width: 2.666667rem;
+    height: 2.4rem;
+    background-image: url(../images/APP_img/购物车_切图/白鞋@2x.png);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .133333rem;
+}
+p.one{
+    position: absolute;
+    top: .453333rem;
+    left: 4.2rem;
+    width: 5.5rem;
+    height: .32rem;
+    font-size: .32rem;
+    font-family:'PingFang';
+    font-weight: bold
+}
+.tiao{
+    position: absolute;
+    left: 4.2rem;
+    top: 1.066667rem;
+    height: .533333rem;
+    width: 2rem;
+    background-color: #f0f0f0;
+    border-radius: .133333rem
+}
+p.t{
+    font-size: .32rem;
+    color:#878787 ;
+    text-align: center;
+    line-height:.533333rem ;
+}
+p.s{
+    position:absolute;
+    left: 4.2rem;
+    bottom: .533333rem;
+    font-size: .48rem;
+    color:#262626 ;
+    font-family: 'MicrosoftYaHeiUI';
+    font-weight: 400;
+}
+.xuanzhe{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: .4rem;
+    bottom: .4rem;
+    width: 2.2rem;
+    height: .666667rem;
+    /* background-color: cornflowerblue; */
+}
+div.o{
+
+    border-radius: .106667rem 0 0 .106667rem;
+}
+div.t{
+    width: .8rem;
+    height: .666667rem;
+
+}
+div.s{
+    border-radius:0 .106667rem .106667rem 0 ;
+
+}
+.same{
+    /* float: left; */
+    width: .7rem;
+    height: .666667rem;
+    border:.013333rem solid #e6e6e6;
+}
+.xuanzhe .same p{
+    text-align: center;
+    font-size: .48rem;
+    font-family: 'PingFang';
+}
+.neirong .item:nth-child(2) .tupian{
+    background-image: url(../images/APP_img/购物车_切图/长裤@2x.png);
+}
+.neirong .item:nth-child(3) .tupian{
+    background-image: url(../images/APP_img/购物车_切图/拖鞋@2x.png);
+}
+.neirong .item:nth-child(4) .tupian{
+    background-image: url(../images/APP_img/购物车_切图/收纳箱@2x.png);
+}
+.jiesuan{
+    position: relative;
+    width: 10rem;
+    height: 1.613333rem;
+    border-top: solid .013333rem #e6e6e6; 
+    /* background-color: cornsilk; */
+}
+.yixuan{
+    position: absolute;
+    left: .4rem; 
+    top: .56rem; 
+    width: 3rem;
+    height: .56rem;
+    
+    /* background-color: cyan; */
+}
+.yuan{
+    margin-right: .16rem;
+    float: left;
+    width: .453333rem;
+    height: .453333rem;
+    border-radius: 50%;
+    border: .013333rem solid #919191;
+}
+.yuan_p{
+    float: left;
+    font-size:.346667rem;
+    color: #333333;
+    font-family: 'PingFang-SC-Light';
+}
+.jies{
+    position: absolute;
+    right: 0;
+    top: .266667rem;
+
+    width: 4rem;
+    height:1.066667rem ;
+    /* background-color: darkblue; */
+} 
+.jies p{
+    font-size: .346667rem;
+    color: #333333;
+}
+.bt{
+    float: right;
+    height: 1.066667rem;
+    width: 3.2rem;
+    background-color: hsla(0, 0%, 80%, 1);
+    border-style: none;
+    border-radius: .266667rem;
+}
+.bt p{
+    text-align: center;
+    line-height: 1.066667rem;
+    font-size: .48rem;
+    font-family: 'PingFang-SC-Medium';
+    color: #FFFFFF;
+}
+.jies_p{
+    font-size: .48rem;
+    font-family: 'PingFang-SC-Medium';
+    font-weight: bold;
+    line-height: 1.066667rem;
+}
+
+.foot{
+    position: relative;
+    /* float: left; */
+    width: 10rem;
+    height: 1.333333rem;
+    background-color: #262422;
+}
+.foot img{
+    margin-top: .066667rem;
+    margin-bottom: .066667rem;
+    width: .586667rem;
+    height: .586667rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+.foot li:nth-child(4) a p{
+    color:#F4516B ;
+}
+.foot li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+
+  
+}
+li p {
+    font-family: '苹方','思源黑体','微软雅黑';
+    color: #ffffff;
+    font-size: .32rem;
+
+      /*手指 点击效果 */
+      cursor:pointer;
+      -webkit-tap-highlight-color: transparent;
+}
+li img:active{
+    transition: all 0.2s;
+    transform: scale(1.5,1.5);
+  }
